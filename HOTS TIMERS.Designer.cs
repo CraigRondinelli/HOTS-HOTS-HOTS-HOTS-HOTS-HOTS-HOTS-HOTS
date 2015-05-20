@@ -1,6 +1,6 @@
 ﻿namespace HOTS_HOTS_HOTS_HOTS_HOTS_HOTS_HOTS_HOTS
 {
-    partial class Form1
+    partial class HOTS_TIMERS
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HOTS_TIMERS));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btnBoss_Blackheart = new System.Windows.Forms.Button();
@@ -1340,14 +1340,14 @@
             this.BossRespawn_Timer_Temple.Interval = 1000;
             this.BossRespawn_Timer_Temple.Tick += new System.EventHandler(this.BossRespawn_Timer_Temple_Tick);
             // 
-            // Form1
+            // HOTS_TIMERS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 192);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "HOTS_TIMERS";
             this.Opacity = 0.9D;
             this.Text = "Form1";
             this.TopMost = true;

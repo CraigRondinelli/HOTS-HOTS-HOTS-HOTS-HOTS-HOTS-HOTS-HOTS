@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HOTS_HOTS_HOTS_HOTS_HOTS_HOTS_HOTS_HOTS
 {
-    public partial class Form1 : Form
+    public partial class HOTS_TIMERS : Form
     {
-        public Form1()
+        public HOTS_TIMERS()
         {
             InitializeComponent();
             this.Text = "PAPACHIP'S SUPER SEXY HOTS TIMER™";
@@ -483,6 +483,9 @@ namespace HOTS_HOTS_HOTS_HOTS_HOTS_HOTS_HOTS_HOTS
         
         //SKY TEMPLE END
 
-        
+            //TO DO
+                //1. add sounds
+                //2. come up with better way to handle starting timers
+                //3. probably add text to progress bars
     }
 }
